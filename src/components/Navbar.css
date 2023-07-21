@@ -53,7 +53,10 @@ li a:hover {
 		background: black;
 		color: white;
 		height: auto;
+		margin-right: 2rem;
+		padding: 0 1rem;
 	}
+	
 	.nav-list.dropdown {
 		display: flex;
 	}

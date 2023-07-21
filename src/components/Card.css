@@ -2,6 +2,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	overflow-x: hidden;
 }
 
 .card-wrapper {
@@ -16,7 +17,7 @@
 }
 
 .card-img img {
-	object-fit: contain;
+	object-fit: cover;
 	max-width: 100%;
 	height: 100%;
 }

@@ -18,23 +18,25 @@ const Navbar = () => {
 				<h1>
 					Ba<span className='green'>chira</span>
 				</h1>
-				<ul className={`nav-list ${isActive ? 'dropdown' : ''}`}>
-					<li>
-						<a href=''>Home</a>
-					</li>
-					<li>
-						<a href=''>Products</a>
-					</li>
-					<li>
-						<a href=''>Categories</a>
-					</li>
-					<li>
-						<a href=''>Brands</a>
-					</li>
-					<li>
-						<a href=''>Pricing</a>
-					</li>
-				</ul>
+				<div className='ul-wrapper'>
+					<ul className={`nav-list ${isActive ? 'dropdown' : ''}`}>
+						<li>
+							<a href=''>Home</a>
+						</li>
+						<li>
+							<a href=''>Products</a>
+						</li>
+						<li>
+							<a href=''>Categories</a>
+						</li>
+						<li>
+							<a href=''>Brands</a>
+						</li>
+						<li>
+							<a href=''>Pricing</a>
+						</li>
+					</ul>
+				</div>
 				<div
 					className='hamburger'
 					onClick={handleClick}>
@@ -42,7 +44,7 @@ const Navbar = () => {
 				</div>
 				<div className='btn-group'>
 					<button className='btn-light'>Login</button>
-					<button className='btn-dark'>Register</button>
+					<button className='btn-d ark'>Register</button>
 				</div>
 			</nav>
 		</>
