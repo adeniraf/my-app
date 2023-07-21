@@ -1,0 +1,59 @@
+.landing-div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+
+.landing-img {
+	width: 100%;
+	height: auto;
+	min-width: 350px;
+}
+
+.main-heading {
+	font-size: 2.5em;
+	margin-bottom: 1rem;
+}
+
+.sub-heading {
+	font-size: 0.875em;
+	margin-bottom: 1rem;
+}
+
+svg {
+	size: 100px;
+	color: var(--main-green);
+}
+
+.shopping-btn {
+	color: white;
+}
+
+.why-heading {
+	margin-bottom: 4rem;
+}
+
+.cta {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.cta-element-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cta-element {
+	margin: 0 3rem;
+}
+
+@media screen and (max-width: 768px) {
+	.landing-div {
+		flex-direction: column;
+	}
+
+	.cta-element-div {
+		flex-direction: column;
+	}
+}

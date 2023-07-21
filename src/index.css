@@ -1,0 +1,25 @@
+:root {
+	margin: 0;
+	padding: 0;
+	--main-green: #3c9379;
+	--main-grey: #535a56;
+}
+
+#root {
+}
+
+html,
+body {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 500;
+	min-height: 100vh;
+	max-width: 100%;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 0.875em;
+}

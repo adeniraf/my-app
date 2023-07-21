@@ -1,0 +1,28 @@
+.footer {
+	text-align: center;
+}
+
+.footer > h2 {
+	margin: 1.5rem 0;
+}
+
+.footer > p {
+	margin-bottom: 1.5rem;
+}
+
+.footer-list {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+
+	margin-bottom: 1.5rem;
+}
+
+.footer-list > li {
+	padding: 0 1rem;
+	border-right: 1px solid red;
+}
+
+.footer-list > li:nth-child(3) {
+	border: none;
+}
